@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>serviceportal</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 02:43:37</sys_created_on>
+        <sys_id>e40461fd2f81d110cc4e57892799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>serviceportal</sys_name>
+        <sys_package display_value="20220802" source="x_866082_20220802">c9f849b12f41d110cc4e57892799b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="20220802">c9f849b12f41d110cc4e57892799b65c</sys_scope>
+        <sys_update_name>sp_page_e40461fd2f81d110cc4e57892799b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 02:43:37</sys_updated_on>
+        <title>servicePortal</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=e40461fd2f81d110cc4e57892799b68c"/>
+</record_update>
