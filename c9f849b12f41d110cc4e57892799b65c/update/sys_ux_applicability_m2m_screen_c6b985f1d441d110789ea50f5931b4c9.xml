@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">4ab985f16041d110ac6c9974c3c28ece</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">46b985f1ce41d110b02d37527b4020c9</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-02 00:48:32</sys_created_on>
+        <sys_id>c6b985f1d441d110789ea50f5931b4c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="20220802" source="x_866082_20220802">c9f849b12f41d110cc4e57892799b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="20220802">c9f849b12f41d110cc4e57892799b65c</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_c6b985f1d441d110789ea50f5931b4c9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-02 00:48:32</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_866082_20220802_news">x_866082_20220802_news</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>NEW</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-02 00:47:06</sys_created_on>
+        <sys_id>0a6901f12f41d110cc4e57892799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NEW</sys_name>
+        <sys_package display_value="20220802" source="x_866082_20220802">c9f849b12f41d110cc4e57892799b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="20220802">c9f849b12f41d110cc4e57892799b65c</sys_scope>
+        <sys_update_name>sys_number_0a6901f12f41d110cc4e57892799b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-02 00:47:06</sys_updated_on>
+    </sys_number>
+</record_update>

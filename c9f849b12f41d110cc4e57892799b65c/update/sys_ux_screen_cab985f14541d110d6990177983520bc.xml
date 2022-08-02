@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="portal Config">b9b985f12f41d110cc4e57892799b69f</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Additional details">82b985f18441d1107d8a0e5771796fbf</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Additional details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(request)">0ab985f13b41d110d43bb40f8e9d4cc8</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Additional details">0eb985f12141d110f4d570def6124ac7</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-02 00:48:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cab985f14541d110d6990177983520bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="20220802" source="x_866082_20220802">c9f849b12f41d110cc4e57892799b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="20220802">c9f849b12f41d110cc4e57892799b65c</sys_scope>
+        <sys_update_name>sys_ux_screen_cab985f14541d110d6990177983520bc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-02 00:48:34</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=cab985f14541d110d6990177983520bc"/>
+</record_update>

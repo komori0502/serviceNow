@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="news" max_length="40" name="x_866082_20220802_news" type="collection">
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TEXT" max_length="40" name="text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TITLE" max_length="40" name="title" type="string"/>
+        <element label="TYPE" max_length="40" name="type" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="UPDATEDATE" max_length="40" name="updatedate" type="glide_date"/>
+    </element>
+</database>

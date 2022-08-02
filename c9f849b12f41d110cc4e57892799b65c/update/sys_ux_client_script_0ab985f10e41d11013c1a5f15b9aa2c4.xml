@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Article page">8ab985f1d941d110163760d2cc0e93c6</macroponent>
+        <name>Toggle Comment Reaction</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, imports }) {
+  var likeCommentPayload = {
+    operation: {
+      dataElementId: "like_knowledge_comment",
+      operationName: "EXECUTE"
+    },
+    operationPayload: {
+      commentId: event.payload.commentId,
+      articleId: api.context.props.sysId
+    }
+  }
+
+  var unlikeCommentPayload = {
+    operation: {
+      dataElementId: "unlike_knowledge_comment",
+      operationName: "EXECUTE"
+    },
+    operationPayload: {
+      commentId: event.payload.commentId,
+      articleId: api.context.props.sysId
+    }
+  }
+
+  if (event.payload.reaction) {
+    api.emit("UXF_DB_OP_TRIGGER_REQUESTED", likeCommentPayload);
+  } else {
+    api.emit("UXF_DB_OP_TRIGGER_REQUESTED", unlikeCommentPayload);
+  }
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-02 00:48:32</sys_created_on>
+        <sys_id>0ab985f10e41d11013c1a5f15b9aa2c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle Comment Reaction</sys_name>
+        <sys_package display_value="20220802" source="x_866082_20220802">c9f849b12f41d110cc4e57892799b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="20220802">c9f849b12f41d110cc4e57892799b65c</sys_scope>
+        <sys_update_name>sys_ux_client_script_0ab985f10e41d11013c1a5f15b9aa2c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-02 00:48:32</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>
