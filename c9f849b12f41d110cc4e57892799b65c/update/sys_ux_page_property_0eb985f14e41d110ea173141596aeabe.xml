@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="portal">42b985f10941d1105694d7fca2df2fbc</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-02 00:48:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>0eb985f14e41d110ea173141596aeabe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="20220802" source="x_866082_20220802">c9f849b12f41d110cc4e57892799b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="20220802">c9f849b12f41d110cc4e57892799b65c</sys_scope>
+        <sys_update_name>sys_ux_page_property_0eb985f14e41d110ea173141596aeabe</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-02 00:48:31</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_866082_20220802.42b985f10941d1105694d7fca2df2fbc.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=0eb985f14e41d110ea173141596aeabe"/>
+</record_update>
